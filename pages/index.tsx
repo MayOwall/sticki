@@ -5,7 +5,7 @@ import Link from "next/link"
 const IndexPage = () => {
   const [pageName, setPageName] = useRecoilState(pageNameState)
 
-  return <div>hello this is test</div>
+  return <div>hello this is for dev</div>
 }
 
 export default IndexPage
