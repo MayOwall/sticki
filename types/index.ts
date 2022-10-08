@@ -1,1 +1,1 @@
-export type { IBaseCardContainerProps } from "types/atom"
+export type { IBaseCardContainerProps, ILogoProps } from "types/atom"
