@@ -1,5 +1,3 @@
-import { StaticImageData } from "next/image"
-
 export interface IBaseCardContainerProps {
   width: number | null
   height: number | null
@@ -11,4 +9,10 @@ export interface IBaseCardContainerProps {
 
 export interface ILogoProps {
   width?: number
+}
+
+export interface IIconProps {
+  name: string
+  width?: number
+  alt: string
 }
