@@ -1,13 +1,15 @@
 import { ILogoProps } from "types"
-import * as S from "./Logo.styles"
 import Image from "next/image"
 import { logo } from "public/image"
 
 export function Logo({ width }: ILogoProps) {
   return (
-    <S.Container width={width}>
-      <Image src={logo} width={100} height={30} alt="hello" />
-    </S.Container>
+    <Image
+      src={logo}
+      width={width ? width * 16 : 6.5 * 16}
+      height={width ? width * 0.31 * 16 : 32}
+      alt="hello"
+    />
   )
 }
 

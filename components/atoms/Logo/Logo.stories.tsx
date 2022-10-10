@@ -8,7 +8,7 @@ export default {
   argTypes: {
     width: {
       defaultValue: undefined,
-      control: "number",
+      control: { type: "range", min: 1, max: 15, step: 1 },
     },
   },
 } as ComponentMeta<typeof Logo>
