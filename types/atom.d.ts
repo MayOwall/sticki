@@ -16,3 +16,10 @@ export interface IIconProps {
   width?: number
   alt: string
 }
+
+interface ISignButtonProps {
+  content?: string
+  width?: number
+  color?: string
+  backgroundColor?: string
+}
