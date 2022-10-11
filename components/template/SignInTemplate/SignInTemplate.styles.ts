@@ -29,6 +29,12 @@ export const Container = styled.div`
   background: linear-gradient(167.94deg, rgba(234, 225, 253) 0%, rgba(179, 191, 255) 100%);
 `
 
+export const LogoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+`
+
 export const LinkContainer = styled.div`
   display: flex;
   justify-content: center;
