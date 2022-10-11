@@ -5,7 +5,7 @@ export const Container = styled.div<IBaseCardContainerProps>`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 
   width: ${({ width }) => (width ? `${width}rem` : "fit-content")};
   height: ${({ height }) => (height ? `${height}rem` : "fit-content")};

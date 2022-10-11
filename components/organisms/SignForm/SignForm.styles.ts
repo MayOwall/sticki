@@ -5,7 +5,7 @@ export const Form = styled.form`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   width: 100%;
   height: inherit;
 

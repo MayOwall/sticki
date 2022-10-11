@@ -16,7 +16,7 @@ export const InputContainer = styled.div`
 export const Label = styled.label`
   color: #b5c0ff;
 
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
 `
 
@@ -27,9 +27,7 @@ export const Input = styled.input`
   height: 2rem;
 
   border: none;
-  border-bottom: 2px solid #b5c0ff;
-
-  font-size: 1.1rem;
+  border-bottom: 1px solid #b5c0ff;
 
   :focus {
     outline: none;
@@ -38,7 +36,7 @@ export const Input = styled.input`
 export const IconContainer = styled.div`
   position: absolute;
   right: 0;
-  bottom: 1.2rem;
+  bottom: 1.5rem;
 
   opacity: 50%;
 
@@ -50,7 +48,7 @@ export const IconContainer = styled.div`
 export const Alert = styled.div<IAlertProps>`
   padding-top: 0.3rem;
 
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   font-weight: 500;
   color: #ffb5b5;
 
