@@ -21,11 +21,3 @@ export function BaseContainer({
     </S.Container>
   )
 }
-
-BaseContainer.defaultProps = {
-  width: null,
-  height: null,
-  padding: 1,
-  borderRadius: 1,
-  backgroundColor: "white",
-}

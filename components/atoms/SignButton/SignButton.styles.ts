@@ -7,7 +7,7 @@ export const Container = styled.button<ISignButtonProps>`
   border: none;
   border-radius: 1.5rem;
   color: ${({ color }) => (color ? color : "white")};
-  background-color: ${({ backgroundColor }) =>
+  background: ${({ backgroundColor }) =>
     backgroundColor ? backgroundColor : "linear-gradient(167.94deg, #EAE1FD 0%, #B3BFFF 100%)"};
   font-size: 1.1rem;
   font-weight: 700;

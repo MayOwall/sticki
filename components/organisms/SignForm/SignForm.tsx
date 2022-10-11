@@ -1,4 +1,4 @@
-import { SignInput } from "components/molecules/SignInput"
+import { SignButton, SignInput } from "components"
 import * as S from "./SignForm.styles"
 import { ISignFormProps } from "types"
 
@@ -53,6 +53,7 @@ export function SignForm({ formType }: ISignFormProps) {
       ) : (
         <SignUpForm isAlertVisible={true} />
       )}
+      <SignButton content={formType === "signIn" ? "로그인" : "회원 가입"} width={15} />
     </S.Form>
   )
 }
