@@ -5,14 +5,12 @@ import * as S from "./DashBoardButton.styles"
 export function DashBoardButton({
   title,
   desc,
-  width,
-  height,
   image,
   backgroundColor,
   ...props
 }: IDashBoardButtonProps) {
   return (
-    <S.Container width={width} height={height} backgroundColor={backgroundColor}>
+    <S.Container backgroundColor={backgroundColor}>
       <S.Title>{title}</S.Title>
       {desc ? <S.Desc>{desc}</S.Desc> : null}
       {image ? (
