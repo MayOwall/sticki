@@ -33,8 +33,6 @@ export interface ICurrentNumberProps {
 export interface IDashBoardButtonProps {
   title: string
   desc: string
-  width?: number
-  height: number
   backgroundColor: string
   image?: string
 }

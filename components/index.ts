@@ -7,6 +7,8 @@ import { DashBoardButton } from "./atoms/DashBoardButton"
 import { Greeting } from "./atoms/Greeting"
 
 import { SignInput } from "./molecules/SignInput"
+import { BoardStatus } from "./molecules/BoardStatus"
+import { LinkGrid } from "./molecules/LinkGrid"
 
 import { SignForm } from "./organisms/SignForm"
 
@@ -20,4 +22,6 @@ export {
   CurrentNumber,
   Greeting,
   DashBoardButton,
+  BoardStatus,
+  LinkGrid,
 }

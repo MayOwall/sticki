@@ -1,8 +1,6 @@
 import styled from "@emotion/styled"
 
 interface IContainerProps {
-  width?: number
-  height: number
   backgroundColor: string
 }
 
@@ -11,8 +9,8 @@ export const Container = styled.div<IContainerProps>`
   flex-direction: column;
   position: relative;
 
-  width: ${({ width }) => (width ? `${width}rem` : "100%")};
-  height: ${({ height }) => `${height}rem`};
+  width: 100%;
+  height: 100%;
   padding: 1rem;
 
   border-radius: 1rem;
@@ -39,8 +37,6 @@ export const Desc = styled.div`
 
   color: white;
   font-size: 0.6rem;
-
-  word-break: keep-all;
 `
 export const ImageContainer = styled.div`
   position: absolute;
