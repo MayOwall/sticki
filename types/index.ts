@@ -7,6 +7,6 @@ export type {
   IGreetingProps,
 } from "types/atom"
 
-export type { ISignInputProps } from "types/molecule"
+export type { ISignInputProps, IBoardStatusProps } from "types/molecule"
 
 export type { ISignFormProps } from "types/organism"
