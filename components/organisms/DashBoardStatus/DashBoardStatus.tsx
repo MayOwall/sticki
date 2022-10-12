@@ -2,12 +2,7 @@ import { Greeting, Icon, BoardStatus } from "components"
 import Link from "next/link"
 import * as S from "./DashBoardStatus.styles"
 
-interface IDashBoardStatusProps {
-  userName: string
-  wholeBoardCount: number
-  onGoingBoardCount: number
-  completedBoardCount: number
-}
+import { IDashBoardStatusProps } from "types"
 
 export function DashBoardStatus({
   userName,
