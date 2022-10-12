@@ -17,9 +17,23 @@ export interface IIconProps {
   alt: string
 }
 
-interface ISignButtonProps {
+export interface ISignButtonProps {
   content?: string
   width?: number
   color?: string
   backgroundColor?: string
+}
+
+export interface ICurrentNumberProps {
+  width?: number
+  title?: string
+  count: number
+}
+
+export interface IDashBoardButtonProps {
+  title: string
+  desc: string
+  width?: number
+  height: number
+  image?: ImageData
 }
