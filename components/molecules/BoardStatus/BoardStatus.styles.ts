@@ -6,6 +6,4 @@ export const Container = styled.div`
 
   width: 100%;
   height: fit-content;
-
-  border: 1px solid;
 `
