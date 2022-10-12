@@ -7,7 +7,7 @@ export const Container = styled.div`
   gap: 1rem;
 
   width: 22.5rem;
-  height: 24.5rem;
+  height: 28rem;
 
   > div:nth-of-type(1) {
     grid-row-start: 1;
