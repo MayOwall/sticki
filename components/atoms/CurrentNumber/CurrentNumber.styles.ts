@@ -8,8 +8,6 @@ export const Container = styled.div<ICurrentNumberProps>`
 
   width: ${({ width }) => (width ? `${width}rem` : "4.5rem")};
   height: ${({ width }) => (width ? `${width}rem` : "4.5rem")};
-
-  border: 1px solid;
 `
 
 export const Title = styled.div`
