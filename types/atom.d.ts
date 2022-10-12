@@ -35,5 +35,6 @@ export interface IDashBoardButtonProps {
   desc: string
   width?: number
   height: number
-  image?: ImageData
+  backgroundColor: string
+  image?: string
 }
