@@ -1,8 +1,7 @@
 import styled from "@emotion/styled"
 
 export const Container = styled.div`
-  width: 18rem;
-  max-height: 6rem;
+  width: 80%;
 
   color: white;
 

@@ -17,9 +17,9 @@ export const Title = styled.div`
 
   font-size: 0.75rem;
   font-weight: 300;
+  line-height: 1.1rem;
 
   word-break: keep-all;
-  overflow: hidden;
 `
 
 export const Count = styled.div`

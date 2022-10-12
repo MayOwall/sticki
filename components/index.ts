@@ -11,6 +11,8 @@ import { BoardStatus } from "./molecules/BoardStatus"
 import { LinkGrid } from "./molecules/LinkGrid"
 
 import { SignForm } from "./organisms/SignForm"
+import { DashBoardStatus } from "./organisms/DashBoardStatus"
+import { DashBoardMain } from "./organisms/DashBoardMain"
 
 export {
   BaseContainer,
@@ -24,4 +26,6 @@ export {
   DashBoardButton,
   BoardStatus,
   LinkGrid,
+  DashBoardStatus,
+  DashBoardMain,
 }
