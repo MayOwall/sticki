@@ -38,3 +38,7 @@ export interface IDashBoardButtonProps {
   backgroundColor: string
   image?: string
 }
+
+export interface IGreetingProps {
+  userName: string
+}

@@ -4,6 +4,7 @@ export type {
   IIconProps,
   ICurrentNumberProps,
   IDashBoardButtonProps,
+  IGreetingProps,
 } from "types/atom"
 
 export type { ISignInputProps } from "types/molecule"
