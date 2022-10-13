@@ -9,9 +9,10 @@ export const Container = styled.nav`
   bottom: 0;
 
   width: 100%;
-  height: 5vh;
-  min-height: 5rem;
+  height: 5rem;
   padding: 1rem;
+
+  background-color: white;
 
   border-top: 1px solid #b5c0ff;
 
