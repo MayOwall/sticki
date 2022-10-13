@@ -20,6 +20,7 @@ import { SignForm } from "./organisms/SignForm"
 import { DashBoardStatus } from "./organisms/DashBoardStatus"
 import { DashBoardMain } from "./organisms/DashBoardMain"
 import { OnGoingBoardList } from "./organisms/OnGoingBoardList"
+import { BottomNavBar } from "./organisms/BottomNavBar"
 
 export {
   BaseContainer,
@@ -39,4 +40,5 @@ export {
   CreateBoardButton,
   BoardPreviewCard,
   OnGoingBoardList,
+  BottomNavBar,
 }
