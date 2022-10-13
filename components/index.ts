@@ -19,6 +19,7 @@ import { BoardPreviewCard } from "./molecules/BoardPreviewCard"
 import { SignForm } from "./organisms/SignForm"
 import { DashBoardStatus } from "./organisms/DashBoardStatus"
 import { DashBoardMain } from "./organisms/DashBoardMain"
+import { OnGoingBoardList } from "./organisms/OnGoingBoardList"
 
 export {
   BaseContainer,
@@ -37,4 +38,5 @@ export {
   PageTitle,
   CreateBoardButton,
   BoardPreviewCard,
+  OnGoingBoardList,
 }

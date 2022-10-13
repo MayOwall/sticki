@@ -10,4 +10,4 @@ export type {
 
 export type { ISignInputProps, IBoardStatusProps, IBoardPreviewCardProps } from "types/molecule"
 
-export type { ISignFormProps, IDashBoardStatusProps } from "types/organism"
+export type { ISignFormProps, IDashBoardStatusProps, IOnGoingBoardListProps } from "types/organism"
