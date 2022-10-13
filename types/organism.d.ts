@@ -12,5 +12,5 @@ export interface IDashBoardStatusProps {
 }
 
 export interface IOnGoingBoardListProps {
-  boardListData: IBoardPreviewCardProps[]
+  boardListData: IBoardPreviewCardProps[] | []
 }
