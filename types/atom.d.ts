@@ -40,3 +40,8 @@ export interface IDashBoardButtonProps {
 export interface IGreetingProps {
   userName: string
 }
+
+export interface IPageTitleProps {
+  title: string
+  desc: string
+}

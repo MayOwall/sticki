@@ -5,6 +5,7 @@ export type {
   ICurrentNumberProps,
   IDashBoardButtonProps,
   IGreetingProps,
+  IPageTitleProps,
 } from "types/atom"
 
 export type { ISignInputProps, IBoardStatusProps } from "types/molecule"
