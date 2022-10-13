@@ -9,3 +9,11 @@ export interface IBoardStatusProps {
   onGoingBoardCount: number
   completedBoardCount: number
 }
+
+export interface IBoardPreviewCardProps {
+  imageLink: string
+  title: string
+  date: string
+  wholeCount: number
+  currentCount: number
+}

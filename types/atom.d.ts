@@ -1,10 +1,10 @@
 export interface IBaseCardContainerProps {
-  width?: number
-  height?: number
+  width?: number | string
+  height?: number | string
   padding?: string
   borderRadius?: number
   backgroundColor?: string
-  children: JSX.Element[]
+  children: JSX.Element[] | JSX.Element
 }
 
 export interface ILogoProps {

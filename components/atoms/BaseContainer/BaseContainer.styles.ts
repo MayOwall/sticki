@@ -7,8 +7,8 @@ export const Container = styled.div<IBaseCardContainerProps>`
   align-items: center;
   gap: 1rem;
 
-  width: ${({ width }) => (width ? `${width}rem` : "fit-content")};
-  height: ${({ height }) => (height ? `${height}rem` : "fit-content")};
+  width: ${({ width }) => (width ? width : "100%")};
+  height: ${({ height }) => (height ? height : "fit-content")};
   padding: ${({ padding }) => (padding ? padding : "2rem 1rem")};
   border-radius: ${({ borderRadius }) => (borderRadius ? `${borderRadius}rem` : "2rem")};
   background-color: ${({ backgroundColor }) => (backgroundColor ? backgroundColor : "white")};
