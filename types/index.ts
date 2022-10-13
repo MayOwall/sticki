@@ -8,6 +8,6 @@ export type {
   IPageTitleProps,
 } from "types/atom"
 
-export type { ISignInputProps, IBoardStatusProps } from "types/molecule"
+export type { ISignInputProps, IBoardStatusProps, IBoardPreviewCardProps } from "types/molecule"
 
 export type { ISignFormProps, IDashBoardStatusProps } from "types/organism"
