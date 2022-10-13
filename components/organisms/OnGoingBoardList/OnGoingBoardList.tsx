@@ -6,8 +6,9 @@ export function OnGoingBoardList({ boardListData, ...props }: IOnGoingBoardListP
   return (
     <S.Container style={{ ...props }}>
       {boardListData.length ? (
-        boardListData.map(({ title, date, wholeCount, currentCount, imageLink }) => (
+        boardListData.map(({ title, date, wholeCount, currentCount, imageLink }, idx) => (
           <BoardPreviewCard
+            key={`${title}${idx}`}
             title={title}
             date={date}
             wholeCount={wholeCount}
