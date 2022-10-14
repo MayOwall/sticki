@@ -8,6 +8,7 @@ import { DashBoardButton } from "./atoms/DashBoardButton"
 import { Greeting } from "./atoms/Greeting"
 import { PageTitle } from "./atoms/PageTitle"
 import { CreateBoardButton } from "./atoms/CreateBoardButton"
+import { ProgressBar } from "./atoms/ProgressBar"
 
 // molecule 단위 컴포넌트들
 import { SignInput } from "./molecules/SignInput"
@@ -41,4 +42,5 @@ export {
   BoardPreviewCard,
   OnGoingBoardList,
   BottomNavBar,
+  ProgressBar,
 }
