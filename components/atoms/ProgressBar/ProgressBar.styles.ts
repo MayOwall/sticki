@@ -10,7 +10,7 @@ export const Container = styled.div`
 export const Border = styled.div`
   width: 100%;
   height: 100%;
-  border: 2px solid black;
+  border: 2px solid #b5c0ff;
   border-radius: 0.5rem;
   z-index: 10;
 `
@@ -26,5 +26,5 @@ export const ProgressBar = styled.div<IProgressBarProps>`
   border: 1px solid white;
   border-radius: 0.5rem;
 
-  background-color: blue;
+  background: linear-gradient(180deg, #eae1fd 0%, #eae1fd 30%, #b3bfff 100%);
 `
