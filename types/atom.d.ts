@@ -49,3 +49,8 @@ export interface IPageTitleProps {
 export interface IProgressBarProps {
   percentage: number
 }
+
+export interface IStickerProps {
+  stickerType: string
+  isVisible: boolean
+}

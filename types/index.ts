@@ -7,6 +7,7 @@ export type {
   IGreetingProps,
   IPageTitleProps,
   IProgressBarProps,
+  IStickerProps,
 } from "types/atom"
 
 export type { ISignInputProps, IBoardStatusProps, IBoardPreviewCardProps } from "types/molecule"
