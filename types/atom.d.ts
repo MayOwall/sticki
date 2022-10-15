@@ -45,3 +45,12 @@ export interface IPageTitleProps {
   title: string
   desc: string
 }
+
+export interface IProgressBarProps {
+  percentage: number
+}
+
+export interface IStickerProps {
+  stickerType: string
+  isVisible: boolean
+}
